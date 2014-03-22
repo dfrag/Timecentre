@@ -1,0 +1,44 @@
+html, body {
+    padding: 0;
+	margin: 0;
+	font-size: 1em;
+	font-family: Tahoma, arial;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+div, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* sub and super script styles */
+small, sub, sup { font-size: .83em }
+sub             { vertical-align: sub }
+sup             { vertical-align: super }
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	padding-bottom: 250px;
+	padding: 0;
+    width: 865px;
+	text-align: left;
+}
+
+#replace
+{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.article {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.article, p{
+	padding-bottom: 0.7em;
+}
